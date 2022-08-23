@@ -1,0 +1,25 @@
+{
+  "name": "abnegate/migrate-to-appwrite",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jake Barnby",
+      "email": "jake@appwrite.io"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "path",
+      "url": "./server-php"
+    }
+  ],
+  "require": {
+    "php": ">=8.0.0",
+    "ext-json": "*",
+    "appwrite/appwrite": "7.0.0"
+  },
+  "scripts": {
+    "migrate:firebase:users": "php migrate-firebase-users.php"
+  }
+}

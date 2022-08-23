@@ -1,0 +1,16 @@
+{
+  "name": "migrate-to-appwrite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "migrate:firebase:users": "node migrate-firebase-users.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-appwrite": "file:./server-nodejs/",
+    "firebase-tools": "^11.8.0"
+  }
+}
